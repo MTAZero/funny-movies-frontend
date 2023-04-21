@@ -1,6 +1,6 @@
 import { Store } from 'react-notifications-component';
 
-export const success = (message = "", title = "", postion: any = "top-center") => {
+export const success = (message = "", title = "", postion: any = "bottom-left") => {
     Store.addNotification({
         title: title,
         message: message,
@@ -17,7 +17,7 @@ export const success = (message = "", title = "", postion: any = "top-center") =
     });
 }
 
-export const error = (message = "", title = "", postion: any = "top-center") => {
+export const error = (message = "", title = "", postion: any = "bottom-left") => {
     Store.addNotification({
         title: title,
         message: message,

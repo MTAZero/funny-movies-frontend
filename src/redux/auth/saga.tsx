@@ -35,7 +35,7 @@ function* saga_Login(action: any) {
 
             yield put(videoActions.action.loadListVideo());
 
-            NotificationsService.success('Login success', 'Thông báo');
+            NotificationsService.success('Login success', '');
         } else {
             NotificationsService.error('Login Error');
         }
