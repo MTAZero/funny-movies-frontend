@@ -1,0 +1,55 @@
+.HomePage {
+    .VideoComponent {
+        display: flex;
+        flex-direction: row;
+
+        .VideoPanel {
+            width: 300px;
+            height: 200px;
+            margin: 20px;
+            background-color: #e2e2e2;
+        }
+
+        .VideoInfoPanel {
+            display: flex;
+            flex-direction: column;
+
+            .Title {
+                font-size: 20px;
+                font-weight: 600;
+                margin-top:20px;
+            }
+
+            .ReactionPanel {
+                display: flex;
+                flex-direction: row;
+                margin-top: 10px;
+
+                .ReactionItem {
+                    display: flex;
+                    align-items: center;
+
+                    font-size: 13px;
+                    font-weight: bold;
+
+                    .ReactionIcon {
+                        margin-left: 3px;
+                        margin-right: 20px;
+
+                        font-size: 16px;
+
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .Description {
+                margin-top: 10px;
+
+                font-size: 13px;
+                color: gray;
+
+            }
+        }
+    }
+}

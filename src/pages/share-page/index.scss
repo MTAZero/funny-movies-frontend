@@ -1,0 +1,31 @@
+.SharePage {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+
+    .ShareForm {
+        width: 500px;
+        // background-color: pink;
+        padding: 20px;
+        border: 1px solid #dddddd;
+        border-radius: 4px;
+        background-color: #f2f2f2;
+
+        .Title {
+            margin-bottom: 20px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .ControlPanel {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .LoginButton {
+                width: 200px;
+            }
+        }
+    }
+}

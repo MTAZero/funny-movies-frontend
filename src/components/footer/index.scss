@@ -1,0 +1,23 @@
+.Footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 160px;
+    padding-right: 160px;
+
+    background: #414141;
+    height: 128px;
+
+    .Text {
+        font-family: 'Hiragino Kaku Gothic Pro';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 11px;
+        line-height: 16px;
+        letter-spacing: 0.033px;
+
+        color: #ffffff;
+
+        margin-right: 45px;
+    }
+}

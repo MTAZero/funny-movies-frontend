@@ -1,0 +1,114 @@
+.HeaderContainer {
+    width: 100%;
+    background-color: #102b4e;
+    position: fixed;
+    z-index: 100;
+
+    .Header {
+        max-width: 1250px;
+        margin-left: auto;
+        margin-right: auto;
+
+        .TopBar {
+            display: flex;
+            flex-direction: row;
+            height: 64px;
+            justify-content: space-between;
+
+            .TopBarLeft {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+                .TopBarLogo {
+                    font-size: 32px;
+                    cursor: pointer;
+                    color: white;
+                }
+
+                .TopBarTitle {
+                    color: white;
+                    font-size: 24px;
+                    font-weight: 500;
+                    margin-left: 10px;
+                }
+            }
+
+            .TopBarRight {
+                display: flex;
+                flex-direction: row;
+                flex: 1;
+                justify-content: flex-end;
+                align-items: center;
+                height: 100%;
+
+                .TopBarItem {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                    margin-right: 24px;
+                    cursor: pointer;
+                    position: relative;
+
+                    .Logo {
+                        width: 32px;
+                        height: 32px;
+                        margin-right: 8px;
+                    }
+
+                    .Title {
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 14px;
+                        line-height: 23px;
+                        color: #ffffff;
+                        margin-right: 5px;
+                    }
+
+                    .Badge {
+                        position: absolute;
+                        top: -5px;
+                        left: 25px;
+
+                        background: #ea6c00;
+                        width: 16px;
+                        height: 16px;
+                        border-radius: 50%;
+
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 10px;
+                        line-height: 12px;
+                        text-align: center;
+
+                        color: #ffffff;
+                    }
+
+                    .ShareButton,
+                    .LogoutButton,
+                    .LoginButton {
+                        color: black;
+
+                        background-color: #f2f2f2;
+                        padding:  4px 10px;
+                        border-radius: 4px;
+
+                        cursor: pointer;
+                    }
+
+                    .ShareButton:hover,
+                    .LogoutButton:hover,
+                    .LoginButton:hover {
+                        opacity: 0.8;
+                    }
+                }
+            }
+        }
+    }
+}
