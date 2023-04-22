@@ -1,4 +1,4 @@
 export const ConfigServer = {
-    host: 'http://127.0.0.1',
+    host: 'http://funny-movies.zindousm.com',
     port: '3002',
 };
