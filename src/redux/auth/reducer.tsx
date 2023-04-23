@@ -14,7 +14,7 @@ const initState = {
 };
 
 const reducer = (state = initState, action: any) => {
-    console.log('action : ', action);
+    // console.log('action : ', action);
 
     switch (action.type) {
         case actions.type.UPDATE_STATE:

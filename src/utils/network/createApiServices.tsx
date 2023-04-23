@@ -6,8 +6,6 @@ const host = ConfigServer.host;
 const port = ConfigServer.port;
 let server = `${host}:${port}`;
 
-console.log("server : ", server)
-
 const _makeRequest = (instantAxios: any) => async (args: any) => {
     const _headers = args.headers ? args.headers : {};
     const body = args.body ? args.body : {};

@@ -39,7 +39,7 @@ export const HomePage = () => {
                     : 0;
 
                 return (
-                    <div className="VideoComponent">
+                    <div className="VideoComponent" data-testid="VideoComponent">
                         <div className="VideoPanel">
                             <ReactPlayer
                                 url={video.url}
@@ -48,7 +48,7 @@ export const HomePage = () => {
                             />
                         </div>
                         <div className="VideoInfoPanel">
-                            <div className="Title">{video.title}</div>
+                            <div className="Title" data-testid="Video-Title">{video.title}</div>
                             <div className="Description">
                                 ShareBy: {video?.share_by_user?.email}
                             </div>

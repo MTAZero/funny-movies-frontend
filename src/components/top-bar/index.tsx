@@ -47,6 +47,7 @@ export const TopBar: React.FC = () => {
                                 <Link
                                     to={RouterLinks.SHARE_PAGE}
                                     className="TopBarItem"
+                                    data-testid="ShareButton"
                                 >
                                     <div className="ShareButton">
                                         Share a Movie
@@ -86,6 +87,7 @@ export const TopBar: React.FC = () => {
                                             <Input
                                                 placeholder="Email"
                                                 className="InputField"
+                                                data-testid="EmailInput"
                                             />
                                         </Form.Item>
                                     </div>
@@ -105,6 +107,7 @@ export const TopBar: React.FC = () => {
                                             <Input.Password
                                                 placeholder="Password"
                                                 className="InputField"
+                                                data-testid="PasswordInput"
                                             />
                                         </Form.Item>
                                     </div>
@@ -113,6 +116,7 @@ export const TopBar: React.FC = () => {
                                             className="LoginButton"
                                             type="primary"
                                             htmlType="submit"
+                                            data-testid="LoginButton"
                                         >
                                             Login / Register
                                         </Button>
